@@ -1,0 +1,179 @@
+body {
+  overflow-x: hidden;
+}
+
+/* intro section */
+
+#intro {
+  background-color: #f3efe0;
+  max-width: 100vw !important;
+}
+
+.htext {
+  color: #8f8f8f;
+}
+
+.cphrase {
+  font-family: "Martian Mono", monospace;
+  font-size: 4rem;
+  padding: 3% 8%;
+  font-weight: bolder;
+}
+
+.cphrase h1 {
+  font-size: 4rem;
+}
+
+.cphrase p {
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #8f8f8f;
+  display: flex;
+  padding: 4% 0;
+}
+
+.nav-item {
+  padding: 5% 10%;
+  text-decoration: none;
+}
+
+.nav-item a {
+  color: #8f8f8f;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  text-align: center;
+  position: relative;
+  left: 17%;
+}
+
+.navbar-brand {
+  color: #282a3a !important;
+  margin-top: 10px;
+  font-weight: bold;
+  position: relative;
+  right: 2%;
+  border: 3px solid #282a3a;
+}
+
+.my-img {
+  margin-left: 12%;
+  padding: 3% 2%;
+  overflow: hidden;
+}
+
+.my-img img {
+  border-radius: 15%;
+}
+
+.btn {
+  background-color: black;
+  border-radius: 25%;
+  color: white;
+  width: 120px;
+}
+
+/* Services section */
+
+#services {
+  background-color: #282a3a;
+  color: #f3efe0;
+}
+
+.s-heading {
+  padding: 7% 10%;
+  font-family: "Martian Mono", monospace;
+}
+
+.s-heading h1 {
+  font-size: 4rem;
+}
+
+.services-div hr {
+  color: #f3efe0;
+  border: 1px solid #f3efe0;
+  margin: 10% auto 5%;
+}
+
+.services-div p {
+  font-size: 20px;
+  padding-left: 12%;
+  padding-top: 3%;
+}
+
+#services .row {
+  padding-bottom: 4%;
+}
+
+/* skills section */
+
+#skills {
+  background-color: #f3efe0;
+}
+
+.skills-heading {
+  padding: 7% 8%;
+  font-family: "Martian Mono", monospace;
+  position: relative;
+  top: 60px;
+}
+
+.tech-stack {
+  padding: 18% 8% 1%;
+}
+
+.tech-stack p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.tech-col {
+  margin-left: 10%;
+}
+
+.tech-stack1 {
+  padding: 5% 8% 1%;
+}
+
+.tech-stack1 p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-top: 10px;
+}
+
+.css3 p {
+  margin-left: 15%;
+}
+
+.c p {
+  font-size: 1.2rem;
+}
+
+#skills .row {
+  padding-bottom: 4%;
+}
+
+/* contact section */
+
+#contact {
+  background-color: #282a3a;
+  color: #f3efe0;
+}
+
+.contact-heading {
+  padding: 3% 8% 8%;
+  font-family: "Martian Mono", monospace;
+  position: relative;
+  top: 60px;
+}
+
+#contact hr {
+  color: #f3efe0;
+  border: 1px solid #f3efe0;
+  margin: 10% auto 5%;
+}
