@@ -131,6 +131,12 @@ body {
   padding-bottom: 4%;
 }
 
+@media (max-width: 767px) {
+  .col-sm-12 {
+    margin: auto 10%;
+  }
+}
+
 /* skills section */
 
 #skills {
@@ -217,4 +223,19 @@ footer img {
 .pic-name {
   position: relative;
   right: 4%;
+}
+
+@media (max-width: 767px) {
+  .fa-solid {
+    margin: 10px auto;
+  }
+  .loc p {
+    margin-bottom: 30px;
+  }
+}
+
+/* footer */
+
+.text-muted {
+  text-align: center;
 }
