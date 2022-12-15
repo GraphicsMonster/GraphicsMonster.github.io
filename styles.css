@@ -16,12 +16,16 @@ body {
 .cphrase {
   font-family: "Martian Mono", monospace;
   font-size: 4rem;
-  padding: 3% 8%;
+  padding: 3% 5%;
+  padding-right: 0;
+  padding-top: 5%;
   font-weight: bolder;
+  margin-left: 3%;
 }
 
 .cphrase h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  /* line-height: 1.5; */
 }
 
 .cphrase p {
@@ -39,9 +43,26 @@ body {
 
 .nav-item a {
   color: #8f8f8f;
+  text-decoration: none;
+  position: relative;
 }
 
-.nav-item a:hover {
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  height: 2px;
+  background-color: #282a3a;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
   text-decoration: none;
 }
 
@@ -56,12 +77,14 @@ body {
   margin-top: 10px;
   font-weight: bold;
   position: relative;
-  right: 2%;
+  right: 10%;
+  margin-top: 2%;
   border: 3px solid #282a3a;
+  scale: 1.5;
 }
 
 .my-img {
-  margin-left: 12%;
+  margin-left: 9%;
   padding: 3% 2%;
   overflow: hidden;
 }
@@ -72,7 +95,6 @@ body {
 
 .btn {
   background-color: black;
-  border-radius: 25%;
   color: white;
   width: 120px;
 }
@@ -85,7 +107,7 @@ body {
 }
 
 .s-heading {
-  padding: 7% 10%;
+  padding: 7% 8%;
   font-family: "Martian Mono", monospace;
 }
 
@@ -176,4 +198,23 @@ body {
   color: #f3efe0;
   border: 1px solid #f3efe0;
   margin: 10% auto 5%;
+}
+
+/* footer */
+
+.foot {
+  text-align: center;
+  padding: 1% 4%;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+footer img {
+  border-radius: 15%;
+  margin-right: 5%;
+}
+
+.pic-name {
+  position: relative;
+  right: 4%;
 }
