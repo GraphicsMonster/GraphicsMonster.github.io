@@ -64,6 +64,7 @@ body {
 .nav-item a:hover::after {
   width: 100%;
   text-decoration: none;
+  color: #282a3a;
 }
 
 .navbar {
@@ -231,6 +232,88 @@ footer img {
   }
   .loc p {
     margin-bottom: 30px;
+  }
+
+  .col-sm-12 {
+    text-align: center;
+  }
+
+  .cphrase h1 {
+    font-size: 2.5rem;
+  }
+
+  .my-img {
+    align-items: center;
+    position: relative;
+    left: 10px;
+    margin: 4% auto;
+    margin-bottom: 10%;
+  }
+
+  #services hr {
+    margin-bottom: 30px;
+  }
+
+  .s-heading {
+    text-align: center;
+  }
+
+  .s-heading p {
+    font-size: 0.8rem;
+  }
+
+  .services-div h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .services-div p {
+    font-size: 1rem;
+  }
+
+  .s-heading {
+    position: relative;
+    right: 6%;
+  }
+
+  .s-heading h1 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .contact-heading h1 {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    font-weight: bolder;
+  }
+
+  .mail-and-address {
+    font-size: 0.8rem;
+  }
+
+  .mobile-padding {
+    padding-bottom: 30px;
+  }
+
+  .mobile-p-customized {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer .pic-name {
+    position: relative;
+    right: 40px;
+  }
+
+  .footer-about,
+  .footer-features {
+    position: relative;
+    left: 70px;
+    padding-top: 20px;
   }
 }
 

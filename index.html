@@ -51,7 +51,7 @@
                 <a href="" class="">About</a>
               </li>
               <li class="nav-item">
-                <a href="" class="">Portfolio</a>
+                <a href="portfolio.html" class="">Portfolio</a>
               </li>
               <li class="nav-item">
                 <a href="#Contact" class="">Contact</a>
@@ -61,7 +61,7 @@
         </nav>
       </header>
       <div class="row text-sm-center text-lg-left">
-        <div class="col-lg-4 col-md-4 cphrase">
+        <div class="col-lg-4 col-md-4 col-sm-12 cphrase">
           <h1>Finally get yourself that website you need!!</h1>
           <p>
             <br />I am a front-end developer and have been working on exciting
@@ -69,7 +69,7 @@
           </p>
           <button class="btn">Let's talk</button>
         </div>
-        <div class="col-lg-6 col-md-4 my-img">
+        <div class="col-lg-6 col-md-4 col-sm-12 my-img">
           <img src="images/Me.jpg" class="img-fluid w-100 mx-auto" alt="" />
         </div>
       </div>
@@ -117,13 +117,15 @@
 
     <section id="skills">
       <div class="row text-sm-center text-lg-left">
-        <div class="col-lg-5 skills-heading text-sm-center text-lg-left">
+        <div
+          class="col-lg-5 col-sm-12 skills-heading text-sm-center text-lg-left"
+        >
           <h1>Skills and Technologies</h1>
           <p>
             A specialist in UI/UX design. Solving problems is a passion of mine.
           </p>
         </div>
-        <div class="skills-div col-lg-5">
+        <div class="skills-div col-lg-5 col-sm-12">
           <div class="row tech-stack">
             <div class="col-lg-3 col-sm-3">
               <i class="fa-brands fa-html5 fa-6x"></i>
@@ -172,9 +174,11 @@
 
     <section id="Contact">
       <div class="row">
-        <div class="col-lg-8 contact-heading text-sm-center text-lg-left">
+        <div
+          class="col-lg-8 col-sm-12 contact-heading text-sm-center text-lg-left"
+        >
           <h1>Let's Discuss Your Project</h1>
-          <p>
+          <p class="mobile-p-customized">
             I am always looking to hop onto meaningful projects and help make a
             difference. Do you have a project for me? Please reach me through my
             socials or email.
@@ -184,7 +188,7 @@
             <div class="col-lg-1">
               <i class="fa-solid fa-envelope-open fa-3x"></i>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 mail-and-address">
               <h5>Email</h5>
               <p>dgupta0069@gmail.com</p>
             </div>
@@ -194,9 +198,9 @@
             <div class="col-lg-1">
               <i class="fa-solid fa-location-pin fa-3x"></i>
             </div>
-            <div class="col-lg-8 loc">
+            <div class="col-lg-8 loc mail-and-address">
               <h5>Location</h5>
-              <p>Dehradun, India</p>
+              <p class="mobile-padding">Dehradun, India</p>
             </div>
           </div>
         </div>
@@ -210,7 +214,7 @@
             <img src="images/Me.jpg" alt="Logo" class="mb-4 img-fluid" />
             <small class="d-block mb-3 text-muted">&copy; Devansh Gupta</small>
           </div>
-          <div class="col-4 col-sm-6 col-md">
+          <div class="col-4 col-sm-6 col-md footer-features">
             <h5>Features</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Cool stuff</a></li>
@@ -221,7 +225,7 @@
               <li><a class="text-muted" href="#">Last time</a></li>
             </ul>
           </div>
-          <div class="col-4 col-sm-6 col-md">
+          <div class="col-4 col-sm-6 col-md footer-about">
             <h5>About</h5>
             <ul class="list-unstyled text-small">
               <li><a class="text-muted" href="#">Team</a></li>
@@ -233,5 +237,6 @@
         </div>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
