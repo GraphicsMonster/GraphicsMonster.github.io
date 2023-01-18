@@ -3,170 +3,178 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devansh</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
     <link
       href="https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
     <script
       src="https://kit.fontawesome.com/49b56edb83.js"
       crossorigin="anonymous"
     ></script>
-    <title>Devansh</title>
   </head>
   <body>
     <section id="intro">
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <p class="htext navbar-brand">DG</p>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand brand" href="#">DG</a>
           <button
             class="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="navbar collapse-navbar-collapse"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a href="#intro" class="">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="portfolio.html" class="">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a href="#Contact" class="">Contact</a>
-              </li>
-            </ul>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link">Contact</a>
+            </div>
           </div>
-        </nav>
-      </header>
-      <div class="row text-sm-center text-lg-left">
-        <div class="col-lg-4 col-md-4 col-sm-12 cphrase">
-          <h1>Finally get yourself that website you need!!</h1>
-          <p>
-            <br />I am a front-end developer and have been working on exciting
-            projects for individuals and companies across the globe.
-          </p>
-          <button class="btn">Let's talk</button>
         </div>
-        <div class="col-lg-6 col-md-4 col-sm-8 my-img">
-          <img src="images/Me.jpg" class="img-fluid w-100 mx-auto" alt="" />
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-xs-12 text-center intro-heading">
+            <h1>Finally get yourself that website you needed</h1>
+            <p>
+              I am a front-end developer and have been working on exciting
+              projects for individuals and companies across the globe.
+            </p>
+            <button class="btn btn-dark">Let's talk</button>
+          </div>
+          <div
+            class="col-lg-6 col-md-5 col-xs-12 d-flex justify-content-center"
+          >
+            <div class="my-img mx-auto">
+              <img
+                src="images/Me.jpg"
+                alt="some image most likely my picture"
+                class="img-fluid w-100 mx-auto"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="services">
-      <div class="row">
-        <div class="s-heading col-xs-6 text-sm-center text-lg-left col-lg-5">
-          <h1>Services I offer</h1>
-          <p>
-            I help individuals and businesses grow their reach by making them
-            super responsive webpages.
-          </p>
-        </div>
-        <div
-          class="col-lg-5 col-sm-12 text-sm-center text-lg-left services-div"
-        >
-          <hr />
-          <h2>
-            <span class="num">01/</span>&nbsp;&nbsp;&nbsp;Front-end web
-            development
-          </h2>
-          <p>
-            Been Designing webpages for what feels like ages now. Like keeping
-            my pages neat and premium-ish haha.
-          </p>
-          <hr />
-          <h2>
-            <span class="num">02/</span>&nbsp;&nbsp;&nbsp;Back-End Web
-            Development
-          </h2>
-          <p>Have operated on servers to handle large user databases.</p>
-          <hr />
-          <h2>
-            <span class="num">03/</span>&nbsp;&nbsp;&nbsp;React Native
-            Development
-          </h2>
-          <p>
-            I am a massive fan of ReactJS and like working with it to create
-            super responsive experiences.
-          </p>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="text-center s-heading col-xs-6 col-lg-5">
+            <h1>Services I offer</h1>
+            <p>
+              I help individuals and businesses grow their reach by making them
+              super responsive webpages.
+            </p>
+          </div>
+          <div
+            class="col-lg-7 col-xs-12 text-center services-div align-items-center"
+          >
+            <div class="inset-div">
+              <div class="top-hr">
+                <hr />
+              </div>
+              <h2>
+                <span class="num">01/</span>&nbsp;&nbsp;&nbsp;Front-end web
+                development
+              </h2>
+              <p>
+                Been Designing webpages for what feels like ages now. Like
+                keeping my pages neat and premium-ish haha.
+              </p>
+              <hr />
+              <h2>
+                <span class="num">02/</span>&nbsp;&nbsp;&nbsp;Back-End Web
+                Development
+              </h2>
+              <p>Have operated on servers to handle large user databases.</p>
+              <hr />
+              <h2>
+                <span class="num">03/</span>&nbsp;&nbsp;&nbsp;React Native
+                Development
+              </h2>
+              <p>
+                I am a massive fan of ReactJS and like working with it to create
+                super responsive experiences.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="skills">
-      <div class="row">
-        <div class="col-lg-5 col-xs-12 skills-heading">
-          <h1>Skills and Technologies</h1>
-          <p>
-            A specialist in UI/UX design. Solving problems is a passion of mine.
-          </p>
-        </div>
-        <div class="skills-div col-lg-5 col-sm-12">
-          <div class="row tech-stack">
-            <div class="col-3">
-              <i class="fa-brands fa-html5 fa-6x"></i>
-              <p>HTML5</p>
-            </div>
-            <div class="col-3 tech-col">
-              <i class="fa-brands fa-css3-alt fa-6x css3"></i>
-              <p>CSS3</p>
-            </div>
-            <div class="col-3 tech-col">
-              <i class="fa-brands fa-square-js fa-6x"></i>
-              <p>Javascript</p>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5 col-xs-12 skills-heading">
+            <h1>Skills and Technologies</h1>
+            <p>
+              A specialist in UI/UX design. Solving problems is a passion of
+              mine.
+            </p>
           </div>
-          <div class="row tech-stack1">
-            <div class="col-3">
-              <i class="fa-brands fa-react fa-6x"></i>
-              <p>ReactJS</p>
-            </div>
-            <div class="col-3 tech-col">
-              <i class="fa-brands fa-java fa-6x"></i>
-              <p>Java</p>
-            </div>
-            <div class="col-3 tech-col c">
-              <i class="fa-solid fa-c fa-6x"></i>
-              <p>C-Lang</p>
-            </div>
-          </div>
-          <div class="row tech-stack1 third-stack">
-            <div class="col-3">
-              <i class="fa-brands fa-python fa-6x"></i>
-              <p>Python</p>
-            </div>
-            <div class="col-3 tech-col">
-              <i class="fa-brands fa-bootstrap fa-6x"></i>
-              <p>Bootstrap</p>
-            </div>
-            <div class="col-3 tech-col">
-              <i class="fa-brands fa-angular fa-6x"></i>
-              <p>AngularJS</p>
+          <div class="skills-div col-lg-5 col-sm-12">
+            <div class="container-fluid">
+              <div class="row tech-stack">
+                <div class="col-3">
+                  <i class="fa-brands fa-html5 fa-6x"></i>
+                  <p>HTML5</p>
+                </div>
+                <div class="col-3 tech-col">
+                  <i class="fa-brands fa-css3-alt fa-6x css3"></i>
+                  <p>CSS3</p>
+                </div>
+                <div class="col-3 tech-col">
+                  <i class="fa-brands fa-square-js fa-6x"></i>
+                  <p>Javascript</p>
+                </div>
+              </div>
+
+              <div class="row tech-stack1">
+                <div class="col-3">
+                  <i class="fa-brands fa-react fa-6x"></i>
+                  <p>ReactJS</p>
+                </div>
+                <div class="col-3 tech-col">
+                  <i class="fa-brands fa-java fa-6x"></i>
+                  <p>Java</p>
+                </div>
+                <div class="col-3 tech-col c">
+                  <i class="fa-solid fa-c fa-6x"></i>
+                  <p>C-Lang</p>
+                </div>
+              </div>
+              <div class="row tech-stack1 third-stack">
+                <div class="col-3">
+                  <i class="fa-brands fa-python fa-6x"></i>
+                  <p>Python</p>
+                </div>
+                <div class="col-3 tech-col">
+                  <i class="fa-brands fa-bootstrap fa-6x"></i>
+                  <p>Bootstrap</p>
+                </div>
+                <div class="col-3 tech-col">
+                  <i class="fa-brands fa-angular fa-6x"></i>
+                  <p>AngularJS</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -174,84 +182,103 @@
     </section>
 
     <section id="Contact">
-      <div class="row">
-        <div
-          class="col-lg-8 col-sm-12 contact-heading text-sm-center text-lg-left"
-        >
-          <h1>Let's Discuss Your Project</h1>
-          <p class="mobile-p-customized">
-            I am always looking to hop onto meaningful projects and help make a
-            difference. Do you have a project for me? Please reach me through my
-            socials or email.
-          </p>
-          <hr />
-          <div class="row text-lg-left text-sm-center">
-            <div class="col-lg-1">
-              <i class="fa-solid fa-envelope-open fa-3x"></i>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 contact-heading">
+            <h1>Let's Discuss Your Project</h1>
+            <p class="mobile-p-customized">
+              I am always looking to hop onto meaningful projects and help make
+              a difference. Do you have a project for me? Please reach me
+              through my socials or email.
+            </p>
+            <hr />
+            <div class="row">
+              <div class="col-lg-1">
+                <i class="fa-solid fa-envelope-open fa-3x"></i>
+              </div>
+              <div class="col-lg-8 mail-and-address">
+                <h5>Email</h5>
+                <p>dgupta0069@gmail.com</p>
+              </div>
             </div>
-            <div class="col-lg-8 mail-and-address">
-              <h5>Email</h5>
-              <p>dgupta0069@gmail.com</p>
-            </div>
-          </div>
-          <hr />
-          <div class="row text-lg-left text-sm-center">
-            <div class="col-lg-1">
-              <i class="fa-solid fa-location-pin fa-3x"></i>
-            </div>
-            <div class="col-lg-8 loc mail-and-address">
-              <h5>Location</h5>
-              <p class="mobile-padding">Dehradun, India</p>
+            <hr />
+            <div class="row">
+              <div class="col-lg-1">
+                <i class="fa-solid fa-location-pin fa-3x"></i>
+              </div>
+              <div class="col-lg-8 loc mail-and-address">
+                <h5>Location</h5>
+                <p class="mobile-padding">Dehradun, India</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="bg-light py-5">
+    <footer class="bg-dark text-white py-5">
       <div class="container">
-        <div class="row text-sm-center text-lg-center">
-          <div class="col-12 col-sm-12 col-md pic-name">
-            <img src="images/Me.jpg" alt="Logo" class="mb-4 img-fluid" />
-            <small class="d-block mb-3 text-muted">&copy; Devansh Gupta</small>
-          </div>
-          <div class="col-4 col-sm-6 col-md footer-features">
-            <h5>Features</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Cool stuff</a></li>
-              <li><a class="text-muted" href="#">Random feature</a></li>
-              <li><a class="text-muted" href="#">Team feature</a></li>
-              <li><a class="text-muted" href="#">Stuff for developers</a></li>
-              <li><a class="text-muted" href="#">Another one</a></li>
-              <li><a class="text-muted" href="#">Last time</a></li>
+        <div class="row">
+          <div class="col-md-3 col-6">
+            <h4 class="text-uppercase mb-4">Navigation</h4>
+            <ul class="list-unstyled">
+              <li><a class="text-white" href="#intro">Home</a></li>
+              <li><a class="text-white" href="#services">Services</a></li>
+              <li>
+                <a class="text-white" href="#skills">Skills and Technologies</a>
+              </li>
+              <li><a class="text-white" href="#contact">Contact</a></li>
             </ul>
           </div>
-          <div class="col-4 col-sm-6 col-md footer-about">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
-              <li><a class="text-muted" href="#">Privacy</a></li>
-              <li><a class="text-muted" href="#">Terms</a></li>
+          <div class="col-md-3 col-6">
+            <h4 class="text-uppercase mb-4">Social Media</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-white" href="https://twitter.com/DGupta9999"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white"
+                  href="https://www.linkedin.com/in/devansh-gupta-40a408240/"
+                  >LinkedIn</a
+                >
+              </li>
             </ul>
+          </div>
+          <div class="col-md-3 col-6">
+            <h4 class="text-uppercase mb-4">Contact Information</h4>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-envelope mr-2"></i
+                ><a class="text-white mail" href="mailto:dgupta0069@gmail.com"
+                  >&nbsp; dgupta0069@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-6">
+            <h4 class="text-uppercase mb-4">Additional Information</h4>
+            <p class="text-white">
+              I am a web and software developer. My skillset mainly lies in
+              writing front-end code and some algorithms for back-end for now. I
+              work as a freelancer and willing to take on interesting projects.
+              Please Contact me via any of the given links.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="text-white">Copyright &copy;2022 My Website</p>
           </div>
         </div>
       </div>
     </footer>
-    <script src="index.js"></script>
+
     <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
   </body>
